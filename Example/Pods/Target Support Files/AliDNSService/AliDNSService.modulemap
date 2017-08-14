@@ -1,0 +1,6 @@
+framework module AliDNSService {
+  umbrella header "AliDNSService-umbrella.h"
+
+  export *
+  module * { export * }
+}

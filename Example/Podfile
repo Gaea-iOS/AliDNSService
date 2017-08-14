@@ -3,9 +3,4 @@ use_frameworks!
 target 'AliDNSService_Example' do
   pod 'AliDNSService', :path => '../'
 
-  target 'AliDNSService_Tests' do
-    inherit! :search_paths
-
-    
-  end
 end
