@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AliDNSService'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'A short description of AliDNSService.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AliDNSService/Classes/*.swift'
+  s.source_files = 'AliDNSService/Classes/AliCloudHttpDNS/*', 'AliDNSService/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'AliDNSService' => ['AliDNSService/Assets/*.png']

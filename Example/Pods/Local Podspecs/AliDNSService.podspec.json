@@ -1,6 +1,6 @@
 {
   "name": "AliDNSService",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "summary": "A short description of AliDNSService.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/Gaea-iOS/AliDNSService",
@@ -13,12 +13,15 @@
   },
   "source": {
     "git": "https://github.com/Gaea-iOS/AliDNSService.git",
-    "tag": "0.1.0"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AliDNSService/Classes/*.swift",
+  "source_files": [
+    "AliDNSService/Classes/AliCloudHttpDNS/*",
+    "AliDNSService/Classes/*.swift"
+  ],
   "libraries": "resolv",
   "frameworks": [
     "CoreTelephony",

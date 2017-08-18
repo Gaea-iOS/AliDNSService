@@ -1,5 +1,5 @@
 PODS:
-  - AliDNSService (0.1.0)
+  - AliDNSService (0.1.4)
 
 DEPENDENCIES:
   - AliDNSService (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AliDNSService: 258ab0d61fb39613cd1ce3e6d4adbefded54e606
+  AliDNSService: 066ba91e0e2372b3bde6ac98932ac17d0f35b267
 
 PODFILE CHECKSUM: 25f6b42bf54f39ac41afa6de9f6595adcee03221
 
