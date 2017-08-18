@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of AliDNSService.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/wangxiaotao/AliDNSService",
+  "homepage": "https://github.com/Gaea-iOS/AliDNSService",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,13 @@
     "wangxiaotao": "445242970@qq.com"
   },
   "source": {
-    "git": "https://github.com/wangxiaotao/AliDNSService.git",
+    "git": "https://github.com/Gaea-iOS/AliDNSService.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AliDNSService/Classes/**/*",
+  "source_files": "AliDNSService/Classes/*.swift",
   "libraries": "resolv",
   "frameworks": [
     "CoreTelephony",

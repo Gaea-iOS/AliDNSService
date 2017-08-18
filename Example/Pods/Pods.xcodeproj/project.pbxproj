@@ -7,18 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06ACD234356C009A873D92A825E523DA /* Pods-AliDNSService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B7AF38BBDCDA1DADFEEFF62FBA8F878F /* Pods-AliDNSService_Example-dummy.m */; };
-		06B5CD2FBDEA4EC8F38E3838AEA90717 /* Pods-AliDNSService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C42F94866A19B2F463AD269153041720 /* Pods-AliDNSService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1805DB8954E8901F148669D296BE55EC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C396E5C50BD8EE53E0362FE2E06AE8 /* CoreTelephony.framework */; };
-		3EB298AF3D198F095061D8C2B6CACE44 /* Pods-AliDNSService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD5D99FF146069A7854C6331D4878F7B /* Pods-AliDNSService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48173FE60F1F6373C6E5A00ECDB3B34A /* AliDNSService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C4910366DBEAE61CDC3ACC16ABA615 /* AliDNSService-dummy.m */; };
-		4CCBE670CA5156E6DF9BBD370A95657D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
-		4CD01FBBCB8A48B706FC8F279EBCE5FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
-		62D7FC37D9CAA62D68F86686BBDAA26E /* AliDNSService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 022E6A0A969C2D503FFAAD7819AE29BA /* AliDNSService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06ACD234356C009A873D92A825E523DA /* Pods-AliDNSService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 22C3570A020901B10F47D2A69E0AB5FD /* Pods-AliDNSService_Example-dummy.m */; };
+		19180B8FA0C29531AD6BF43877D2FD32 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C396E5C50BD8EE53E0362FE2E06AE8 /* CoreTelephony.framework */; };
+		3AE83D6A00A25BF67062BE671BD7222E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */; };
+		3EB298AF3D198F095061D8C2B6CACE44 /* Pods-AliDNSService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AD22BCB5D41DDE81A2CBA89CFCFB1FC /* Pods-AliDNSService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EF263BFC6DCCCDE8EA76CA6A9EAA449 /* AliDNSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D13BE40B9359303EC2CE2B8F43AB9 /* AliDNSService.swift */; };
+		537AAD31E218C389D91DE3A523D6AB33 /* AliDNSService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E78EB59107703D319DB42E9A1358EB71 /* AliDNSService-dummy.m */; };
+		63910C90F0CA41847C97111050AE5042 /* AliDNSService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A9443DF19DEC398A6A5F1222C9A3954 /* AliDNSService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64A7590626C8EEDF4EFDDD42BA72FE72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
-		715D3A7B5A9990C92407CFB6FBF94D6F /* Pods-AliDNSService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7B4811B96128B4DA43AC1C7D8E7664 /* Pods-AliDNSService_Tests-dummy.m */; };
-		AD8642AF8A4C8FEF0D9EA992BEE95BC4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */; };
-		DF9F4A98B7EB90FD0409648A9671320C /* AliDNSService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62ECD6C6283B1C892EFFFC494508447F /* AliDNSService.swift */; };
+		E4EA534F5A706DAEF088098F26B5D90F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,49 +23,38 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F97BEFC689038A5FAFA3EB82F432F32D;
+			remoteGlobalIDString = E7F0941DF7349233674482196C5C27D8;
 			remoteInfo = AliDNSService;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C38B153032553C31C4D9FFB6DCF073 /* Pods-AliDNSService_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliDNSService_Example-resources.sh"; sourceTree = "<group>"; };
-		022E6A0A969C2D503FFAAD7819AE29BA /* AliDNSService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliDNSService-umbrella.h"; sourceTree = "<group>"; };
-		02EBB7E61039F1B405FDA8B5262C4CF2 /* AliDNSService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AliDNSService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0390D6A42239F1481173E23BAD54C705 /* Pods-AliDNSService_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliDNSService_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		1FF6F1D9199C8F5499D678C7274506A7 /* Pods-AliDNSService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliDNSService_Example-frameworks.sh"; sourceTree = "<group>"; };
-		201BE87F279A69F4F49180C81205FC88 /* Pods-AliDNSService_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliDNSService_Tests-resources.sh"; sourceTree = "<group>"; };
-		2181CA1D34868133F5E5A0D4AECB09EB /* AlicloudUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlicloudUtils.framework; path = AliDNSService/Classes/AliCloudHttpDNS/AlicloudUtils.framework; sourceTree = "<group>"; };
-		23C4910366DBEAE61CDC3ACC16ABA615 /* AliDNSService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliDNSService-dummy.m"; sourceTree = "<group>"; };
-		25F531E6226B6FC0012B860EA7A2FFD5 /* Pods-AliDNSService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliDNSService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		284D092E2137736D7D0293A9BEF5EABA /* Pods_AliDNSService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliDNSService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		325609D43F41936F2C920B5AD5CF28A6 /* Pods-AliDNSService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliDNSService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4C78862A4BC502AA754E5B000FE4978E /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = AliDNSService/Classes/AliCloudHttpDNS/UTDID.framework; sourceTree = "<group>"; };
-		51FA86258A39A37C7C595282C973B563 /* Pods-AliDNSService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliDNSService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		553E267E104F6D4A9398BC217C445A4C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19EC492A74823A5FCD6462D69C56A3AA /* Pods-AliDNSService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AliDNSService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1A9443DF19DEC398A6A5F1222C9A3954 /* AliDNSService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliDNSService-umbrella.h"; sourceTree = "<group>"; };
+		1DAE4840CB2E3027BD6AF86ECCA196A5 /* AlicloudUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlicloudUtils.framework; path = AliDNSService/Classes/AliCloudHttpDNS/AlicloudUtils.framework; sourceTree = "<group>"; };
+		1E3E9B1774E35C781797D3102919C97C /* Pods-AliDNSService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliDNSService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		22C3570A020901B10F47D2A69E0AB5FD /* Pods-AliDNSService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliDNSService_Example-dummy.m"; sourceTree = "<group>"; };
+		33C131627D8BA137E3B822A21C98EA8C /* Pods-AliDNSService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliDNSService_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		44876E626EFE09A6A35F99780A8B118D /* AliDNSService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliDNSService-prefix.pch"; sourceTree = "<group>"; };
+		4F3E7C46A18ECDC341CA1FF9361F645B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5101F62A5B00147764EA2EE64256C494 /* UTDID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UTDID.framework; path = AliDNSService/Classes/AliCloudHttpDNS/UTDID.framework; sourceTree = "<group>"; };
+		57DC3577EFB4BA12D9A50272F71A9B4E /* AliDNSService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AliDNSService.modulemap; sourceTree = "<group>"; };
 		584CB9F6BD0B54A2910EB5167AABB075 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		5A67A77711541A0E1462739F7B67DD48 /* AlicloudHttpDNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlicloudHttpDNS.framework; path = AliDNSService/Classes/AliCloudHttpDNS/AlicloudHttpDNS.framework; sourceTree = "<group>"; };
-		603F5A3A0D73415F1A25918F0CC8CB27 /* Pods-AliDNSService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AliDNSService_Tests.modulemap"; sourceTree = "<group>"; };
-		62ECD6C6283B1C892EFFFC494508447F /* AliDNSService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AliDNSService.swift; path = AliDNSService/Classes/AliDNSService.swift; sourceTree = "<group>"; };
-		72E949F633CAA9F030474C30A34C25AB /* Pods-AliDNSService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliDNSService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		7680732AC3023F17539A2730F13EF3FE /* Pods-AliDNSService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliDNSService_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7B687092E1152938DDCDF341BB0A25F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7ED93423802EE90BF949E300017FFEDA /* Pods-AliDNSService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AliDNSService_Example.modulemap"; sourceTree = "<group>"; };
+		5C796FD81174A00ABDF3ACD3BD835541 /* AliDNSService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AliDNSService.framework; path = AliDNSService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60395FBC9F57B2AACA11B3B22FAECD18 /* Pods-AliDNSService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliDNSService_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6912171E7264CED2AB23ECE5DC1AFFDE /* AlicloudHttpDNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlicloudHttpDNS.framework; path = AliDNSService/Classes/AliCloudHttpDNS/AlicloudHttpDNS.framework; sourceTree = "<group>"; };
+		8AD22BCB5D41DDE81A2CBA89CFCFB1FC /* Pods-AliDNSService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliDNSService_Example-umbrella.h"; sourceTree = "<group>"; };
 		9212B0858CE38CAB25B153C4609AA244 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		941191CD53292FDD6F2840D420006BB0 /* Pods-AliDNSService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AliDNSService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A5CF99F4F7181BFB2982D1E6DD56FA4E /* AliDNSService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AliDNSService.modulemap; sourceTree = "<group>"; };
-		B7AF38BBDCDA1DADFEEFF62FBA8F878F /* Pods-AliDNSService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliDNSService_Example-dummy.m"; sourceTree = "<group>"; };
-		C42F94866A19B2F463AD269153041720 /* Pods-AliDNSService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliDNSService_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CD5D99FF146069A7854C6331D4878F7B /* Pods-AliDNSService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AliDNSService_Example-umbrella.h"; sourceTree = "<group>"; };
-		DCA324EB1905D50A3396326F9CF05217 /* Pods-AliDNSService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliDNSService_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E80F835171DE8466731A2E416F16ED13 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE7B4811B96128B4DA43AC1C7D8E7664 /* Pods-AliDNSService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AliDNSService_Tests-dummy.m"; sourceTree = "<group>"; };
-		EEEE90FB6036C51C6FBEACA617FF6321 /* Pods-AliDNSService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AliDNSService_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EFF47C6AD7E08FA9591FAE3434410722 /* Pods_AliDNSService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AliDNSService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0BA168D6F1267DCD087226152F38D0A /* AliDNSService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AliDNSService-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9412BA24B45D6D7A98F8AFF7CE695A70 /* AliDNSService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliDNSService.xcconfig; sourceTree = "<group>"; };
+		B9D2C059FCDD35338DFFCF1205486F54 /* Pods-AliDNSService_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliDNSService_Example-resources.sh"; sourceTree = "<group>"; };
+		D340046A03D3588C13A30077FEAB7588 /* Pods-AliDNSService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AliDNSService_Example.modulemap"; sourceTree = "<group>"; };
+		D5412DA0950DF1E3F3F82B2918F1369C /* Pods_AliDNSService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AliDNSService_Example.framework; path = "Pods-AliDNSService_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE679DC25FF094CD4488CF42BFD80465 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E78EB59107703D319DB42E9A1358EB71 /* AliDNSService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AliDNSService-dummy.m"; sourceTree = "<group>"; };
+		E986CD96781F02358C6404398B6CC1F6 /* Pods-AliDNSService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AliDNSService_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F2C396E5C50BD8EE53E0362FE2E06AE8 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		F7D9B9820F105EED677A2B82B3DDF286 /* AliDNSService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AliDNSService.xcconfig; sourceTree = "<group>"; };
+		FA1D13BE40B9359303EC2CE2B8F43AB9 /* AliDNSService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AliDNSService.swift; path = AliDNSService/Classes/AliDNSService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,27 +66,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0ADEB7EAF9C96C644FFE6A65E6CFA0B /* Frameworks */ = {
+		C75213E7DF8FD0743F6D5BAC6EDE573B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1805DB8954E8901F148669D296BE55EC /* CoreTelephony.framework in Frameworks */,
-				4CD01FBBCB8A48B706FC8F279EBCE5FD /* Foundation.framework in Frameworks */,
-				AD8642AF8A4C8FEF0D9EA992BEE95BC4 /* SystemConfiguration.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF26EAC77FDA4E9DB807E6BFAA161825 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CCBE670CA5156E6DF9BBD370A95657D /* Foundation.framework in Frameworks */,
+				19180B8FA0C29531AD6BF43877D2FD32 /* CoreTelephony.framework in Frameworks */,
+				E4EA534F5A706DAEF088098F26B5D90F /* Foundation.framework in Frameworks */,
+				3AE83D6A00A25BF67062BE671BD7222E /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05F9B645D03BC5F0C4D6D082C1F0C215 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C796FD81174A00ABDF3ACD3BD835541 /* AliDNSService.framework */,
+				D5412DA0950DF1E3F3F82B2918F1369C /* Pods_AliDNSService_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -109,89 +96,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		19579526542B935E9483D273D6723C82 /* AliDNSService */ = {
+		125F07178E6B334C1B924F8E3E6E6076 /* AliDNSService */ = {
 			isa = PBXGroup;
 			children = (
-				62ECD6C6283B1C892EFFFC494508447F /* AliDNSService.swift */,
-				3FE51E9BD5B3657C849B6227BF33CDAA /* Frameworks */,
-				CE27464B41EF2B69BA585645D6D745DD /* Support Files */,
+				FA1D13BE40B9359303EC2CE2B8F43AB9 /* AliDNSService.swift */,
+				C552B39DCBF80A2D4934E8E9EC0A670F /* Frameworks */,
+				A35D27CD07D747CF52A764C19C7ED759 /* Support Files */,
 			);
 			name = AliDNSService;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		22AADDEAE68565062C5FE9E9464ECDD8 /* Pods-AliDNSService_Example */ = {
-			isa = PBXGroup;
-			children = (
-				E80F835171DE8466731A2E416F16ED13 /* Info.plist */,
-				7ED93423802EE90BF949E300017FFEDA /* Pods-AliDNSService_Example.modulemap */,
-				25F531E6226B6FC0012B860EA7A2FFD5 /* Pods-AliDNSService_Example-acknowledgements.markdown */,
-				325609D43F41936F2C920B5AD5CF28A6 /* Pods-AliDNSService_Example-acknowledgements.plist */,
-				B7AF38BBDCDA1DADFEEFF62FBA8F878F /* Pods-AliDNSService_Example-dummy.m */,
-				1FF6F1D9199C8F5499D678C7274506A7 /* Pods-AliDNSService_Example-frameworks.sh */,
-				00C38B153032553C31C4D9FFB6DCF073 /* Pods-AliDNSService_Example-resources.sh */,
-				CD5D99FF146069A7854C6331D4878F7B /* Pods-AliDNSService_Example-umbrella.h */,
-				7680732AC3023F17539A2730F13EF3FE /* Pods-AliDNSService_Example.debug.xcconfig */,
-				EEEE90FB6036C51C6FBEACA617FF6321 /* Pods-AliDNSService_Example.release.xcconfig */,
-			);
-			name = "Pods-AliDNSService_Example";
-			path = "Target Support Files/Pods-AliDNSService_Example";
-			sourceTree = "<group>";
-		};
-		27CACDA500D5D345A71B08872F04328F /* Pods-AliDNSService_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				7B687092E1152938DDCDF341BB0A25F3 /* Info.plist */,
-				603F5A3A0D73415F1A25918F0CC8CB27 /* Pods-AliDNSService_Tests.modulemap */,
-				51FA86258A39A37C7C595282C973B563 /* Pods-AliDNSService_Tests-acknowledgements.markdown */,
-				941191CD53292FDD6F2840D420006BB0 /* Pods-AliDNSService_Tests-acknowledgements.plist */,
-				EE7B4811B96128B4DA43AC1C7D8E7664 /* Pods-AliDNSService_Tests-dummy.m */,
-				0390D6A42239F1481173E23BAD54C705 /* Pods-AliDNSService_Tests-frameworks.sh */,
-				201BE87F279A69F4F49180C81205FC88 /* Pods-AliDNSService_Tests-resources.sh */,
-				C42F94866A19B2F463AD269153041720 /* Pods-AliDNSService_Tests-umbrella.h */,
-				72E949F633CAA9F030474C30A34C25AB /* Pods-AliDNSService_Tests.debug.xcconfig */,
-				DCA324EB1905D50A3396326F9CF05217 /* Pods-AliDNSService_Tests.release.xcconfig */,
-			);
-			name = "Pods-AliDNSService_Tests";
-			path = "Target Support Files/Pods-AliDNSService_Tests";
-			sourceTree = "<group>";
-		};
-		368A4990F6FCCB573557544A8EE575DB /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				22AADDEAE68565062C5FE9E9464ECDD8 /* Pods-AliDNSService_Example */,
-				27CACDA500D5D345A71B08872F04328F /* Pods-AliDNSService_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3FE51E9BD5B3657C849B6227BF33CDAA /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5A67A77711541A0E1462739F7B67DD48 /* AlicloudHttpDNS.framework */,
-				2181CA1D34868133F5E5A0D4AECB09EB /* AlicloudUtils.framework */,
-				4C78862A4BC502AA754E5B000FE4978E /* UTDID.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		43F8C5096CBFE605556364CDE641F92E /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				19579526542B935E9483D273D6723C82 /* AliDNSService */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				43F8C5096CBFE605556364CDE641F92E /* Development Pods */,
+				89BF8A041AD8A3D69459B24660143624 /* Development Pods */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				D1E16278072C754215C811C7517EB124 /* Products */,
-				368A4990F6FCCB573557544A8EE575DB /* Targets Support Files */,
+				05F9B645D03BC5F0C4D6D082C1F0C215 /* Products */,
+				BFBBEDC7F784B06674D15B97F53ACF35 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		813BBDC3324D39BB8EDBC474B3DF745A /* Pods-AliDNSService_Example */ = {
+			isa = PBXGroup;
+			children = (
+				DE679DC25FF094CD4488CF42BFD80465 /* Info.plist */,
+				D340046A03D3588C13A30077FEAB7588 /* Pods-AliDNSService_Example.modulemap */,
+				19EC492A74823A5FCD6462D69C56A3AA /* Pods-AliDNSService_Example-acknowledgements.markdown */,
+				1E3E9B1774E35C781797D3102919C97C /* Pods-AliDNSService_Example-acknowledgements.plist */,
+				22C3570A020901B10F47D2A69E0AB5FD /* Pods-AliDNSService_Example-dummy.m */,
+				E986CD96781F02358C6404398B6CC1F6 /* Pods-AliDNSService_Example-frameworks.sh */,
+				B9D2C059FCDD35338DFFCF1205486F54 /* Pods-AliDNSService_Example-resources.sh */,
+				8AD22BCB5D41DDE81A2CBA89CFCFB1FC /* Pods-AliDNSService_Example-umbrella.h */,
+				33C131627D8BA137E3B822A21C98EA8C /* Pods-AliDNSService_Example.debug.xcconfig */,
+				60395FBC9F57B2AACA11B3B22FAECD18 /* Pods-AliDNSService_Example.release.xcconfig */,
+			);
+			name = "Pods-AliDNSService_Example";
+			path = "Target Support Files/Pods-AliDNSService_Example";
+			sourceTree = "<group>";
+		};
+		89BF8A041AD8A3D69459B24660143624 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				125F07178E6B334C1B924F8E3E6E6076 /* AliDNSService */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		A1F41256A09661734466D0BEFE210060 /* iOS */ = {
@@ -204,41 +154,41 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		CE27464B41EF2B69BA585645D6D745DD /* Support Files */ = {
+		A35D27CD07D747CF52A764C19C7ED759 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A5CF99F4F7181BFB2982D1E6DD56FA4E /* AliDNSService.modulemap */,
-				F7D9B9820F105EED677A2B82B3DDF286 /* AliDNSService.xcconfig */,
-				23C4910366DBEAE61CDC3ACC16ABA615 /* AliDNSService-dummy.m */,
-				F0BA168D6F1267DCD087226152F38D0A /* AliDNSService-prefix.pch */,
-				022E6A0A969C2D503FFAAD7819AE29BA /* AliDNSService-umbrella.h */,
-				553E267E104F6D4A9398BC217C445A4C /* Info.plist */,
+				57DC3577EFB4BA12D9A50272F71A9B4E /* AliDNSService.modulemap */,
+				9412BA24B45D6D7A98F8AFF7CE695A70 /* AliDNSService.xcconfig */,
+				E78EB59107703D319DB42E9A1358EB71 /* AliDNSService-dummy.m */,
+				44876E626EFE09A6A35F99780A8B118D /* AliDNSService-prefix.pch */,
+				1A9443DF19DEC398A6A5F1222C9A3954 /* AliDNSService-umbrella.h */,
+				4F3E7C46A18ECDC341CA1FF9361F645B /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AliDNSService";
 			sourceTree = "<group>";
 		};
-		D1E16278072C754215C811C7517EB124 /* Products */ = {
+		BFBBEDC7F784B06674D15B97F53ACF35 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				02EBB7E61039F1B405FDA8B5262C4CF2 /* AliDNSService.framework */,
-				284D092E2137736D7D0293A9BEF5EABA /* Pods_AliDNSService_Example.framework */,
-				EFF47C6AD7E08FA9591FAE3434410722 /* Pods_AliDNSService_Tests.framework */,
+				813BBDC3324D39BB8EDBC474B3DF745A /* Pods-AliDNSService_Example */,
 			);
-			name = Products;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C552B39DCBF80A2D4934E8E9EC0A670F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6912171E7264CED2AB23ECE5DC1AFFDE /* AlicloudHttpDNS.framework */,
+				1DAE4840CB2E3027BD6AF86ECCA196A5 /* AlicloudUtils.framework */,
+				5101F62A5B00147764EA2EE64256C494 /* UTDID.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		633A5701E175A789461A754C84F46A24 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				62D7FC37D9CAA62D68F86686BBDAA26E /* AliDNSService-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		AA673D3418712A79011A49D32FC0B58B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -247,11 +197,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDE1CC58C56FD27CAED38DFF7E0D1009 /* Headers */ = {
+		D234113A29B5F098236294BC9F640222 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06B5CD2FBDEA4EC8F38E3838AEA90717 /* Pods-AliDNSService_Tests-umbrella.h in Headers */,
+				63910C90F0CA41847C97111050AE5042 /* AliDNSService-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,33 +223,16 @@
 			);
 			name = "Pods-AliDNSService_Example";
 			productName = "Pods-AliDNSService_Example";
-			productReference = 284D092E2137736D7D0293A9BEF5EABA /* Pods_AliDNSService_Example.framework */;
+			productReference = D5412DA0950DF1E3F3F82B2918F1369C /* Pods_AliDNSService_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		41E18A48F2F13C5844C3CEC741EE67D3 /* Pods-AliDNSService_Tests */ = {
+		E7F0941DF7349233674482196C5C27D8 /* AliDNSService */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D80C2C6B0ADE140829549D339C18A153 /* Build configuration list for PBXNativeTarget "Pods-AliDNSService_Tests" */;
+			buildConfigurationList = B1F51538F1EF4D911DC8CBB4E163B4D5 /* Build configuration list for PBXNativeTarget "AliDNSService" */;
 			buildPhases = (
-				252A392AF258836389381046A6D138CC /* Sources */,
-				EF26EAC77FDA4E9DB807E6BFAA161825 /* Frameworks */,
-				DDE1CC58C56FD27CAED38DFF7E0D1009 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-AliDNSService_Tests";
-			productName = "Pods-AliDNSService_Tests";
-			productReference = EFF47C6AD7E08FA9591FAE3434410722 /* Pods_AliDNSService_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F97BEFC689038A5FAFA3EB82F432F32D /* AliDNSService */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 42033FDF138625EB3B4678AEFC42E2F1 /* Build configuration list for PBXNativeTarget "AliDNSService" */;
-			buildPhases = (
-				2166CFDE55255BB49CA9A91621D15F6D /* Sources */,
-				D0ADEB7EAF9C96C644FFE6A65E6CFA0B /* Frameworks */,
-				633A5701E175A789461A754C84F46A24 /* Headers */,
+				A5B5880062E6F1449C7CB2AE72A48B26 /* Sources */,
+				C75213E7DF8FD0743F6D5BAC6EDE573B /* Frameworks */,
+				D234113A29B5F098236294BC9F640222 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -307,7 +240,7 @@
 			);
 			name = AliDNSService;
 			productName = AliDNSService;
-			productReference = 02EBB7E61039F1B405FDA8B5262C4CF2 /* AliDNSService.framework */;
+			productReference = 5C796FD81174A00ABDF3ACD3BD835541 /* AliDNSService.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -327,40 +260,31 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D1E16278072C754215C811C7517EB124 /* Products */;
+			productRefGroup = 05F9B645D03BC5F0C4D6D082C1F0C215 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F97BEFC689038A5FAFA3EB82F432F32D /* AliDNSService */,
+				E7F0941DF7349233674482196C5C27D8 /* AliDNSService */,
 				0301F4317438BC3DABAD186E08179CC6 /* Pods-AliDNSService_Example */,
-				41E18A48F2F13C5844C3CEC741EE67D3 /* Pods-AliDNSService_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2166CFDE55255BB49CA9A91621D15F6D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48173FE60F1F6373C6E5A00ECDB3B34A /* AliDNSService-dummy.m in Sources */,
-				DF9F4A98B7EB90FD0409648A9671320C /* AliDNSService.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		252A392AF258836389381046A6D138CC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				715D3A7B5A9990C92407CFB6FBF94D6F /* Pods-AliDNSService_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4AA16C73A168495C0D7D1644C699535A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				06ACD234356C009A873D92A825E523DA /* Pods-AliDNSService_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5B5880062E6F1449C7CB2AE72A48B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537AAD31E218C389D91DE3A523D6AB33 /* AliDNSService-dummy.m in Sources */,
+				4EF263BFC6DCCCDE8EA76CA6A9EAA449 /* AliDNSService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,15 +294,15 @@
 		43D7E68B9498A81B98A23BA4F2DF6D44 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AliDNSService;
-			target = F97BEFC689038A5FAFA3EB82F432F32D /* AliDNSService */;
+			target = E7F0941DF7349233674482196C5C27D8 /* AliDNSService */;
 			targetProxy = D6040D0383AD9402E8CF299DEED476F6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3F6841CBFA82AF4E86CC6234F6FBF22C /* Release */ = {
+		2926C7A896346C8576F0129EF39273D6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7D9B9820F105EED677A2B82B3DDF286 /* AliDNSService.xcconfig */;
+			baseConfigurationReference = 9412BA24B45D6D7A98F8AFF7CE695A70 /* AliDNSService.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -413,7 +337,7 @@
 		};
 		59DF4913168453A6E76CFF15F71B39E3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEEE90FB6036C51C6FBEACA617FF6321 /* Pods-AliDNSService_Example.release.xcconfig */;
+			baseConfigurationReference = 60395FBC9F57B2AACA11B3B22FAECD18 /* Pods-AliDNSService_Example.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -448,77 +372,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		5E472EE1EA1C80D46D9C3E7F6FF993A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7D9B9820F105EED677A2B82B3DDF286 /* AliDNSService.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AliDNSService/AliDNSService-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AliDNSService/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AliDNSService/AliDNSService.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AliDNSService;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		64B42555FD67CD5F40127A579F25E486 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 72E949F633CAA9F030474C30A34C25AB /* Pods-AliDNSService_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AliDNSService_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AliDNSService_Tests/Pods-AliDNSService_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AliDNSService_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -566,7 +419,7 @@
 		};
 		8D91155DBBF524EA95EAFD8F3304FA3F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7680732AC3023F17539A2730F13EF3FE /* Pods-AliDNSService_Example.debug.xcconfig */;
+			baseConfigurationReference = 33C131627D8BA137E3B822A21C98EA8C /* Pods-AliDNSService_Example.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -602,42 +455,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		9E4D8CFBAA8C8A76D4855FF32AB08608 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DCA324EB1905D50A3396326F9CF05217 /* Pods-AliDNSService_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AliDNSService_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AliDNSService_Tests/Pods-AliDNSService_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AliDNSService_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		A6A03C9B1314C05BD3C2FBD3F65EDF83 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -688,6 +505,41 @@
 			};
 			name = Debug;
 		};
+		CC6DCB7D4C9B3C93C35387A92707B566 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9412BA24B45D6D7A98F8AFF7CE695A70 /* AliDNSService.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/AliDNSService/AliDNSService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AliDNSService/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AliDNSService/AliDNSService.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = AliDNSService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -700,11 +552,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		42033FDF138625EB3B4678AEFC42E2F1 /* Build configuration list for PBXNativeTarget "AliDNSService" */ = {
+		B1F51538F1EF4D911DC8CBB4E163B4D5 /* Build configuration list for PBXNativeTarget "AliDNSService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E472EE1EA1C80D46D9C3E7F6FF993A4 /* Debug */,
-				3F6841CBFA82AF4E86CC6234F6FBF22C /* Release */,
+				CC6DCB7D4C9B3C93C35387A92707B566 /* Debug */,
+				2926C7A896346C8576F0129EF39273D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -714,15 +566,6 @@
 			buildConfigurations = (
 				8D91155DBBF524EA95EAFD8F3304FA3F /* Debug */,
 				59DF4913168453A6E76CFF15F71B39E3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D80C2C6B0ADE140829549D339C18A153 /* Build configuration list for PBXNativeTarget "Pods-AliDNSService_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				64B42555FD67CD5F40127A579F25E486 /* Debug */,
-				9E4D8CFBAA8C8A76D4855FF32AB08608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
