@@ -20,7 +20,7 @@ public class AliDNSService: NSObject, HttpDNSDegradationDelegate {
     
     private(set) var preResolveHosts: [String] = []
     
-    public func setup(accountId: Int32, secretKey: String, preResolveHosts: [String]) {
+    public func setup(accountId: Int32, secretKey: String? = nil, preResolveHosts: [String]) {
         
         alicloundDNSService = HttpDnsService(accountID: accountId, secretKey: secretKey)
         alicloundDNSService?.setAuthCurrentTime(UInt(Date().timeIntervalSince1970))
