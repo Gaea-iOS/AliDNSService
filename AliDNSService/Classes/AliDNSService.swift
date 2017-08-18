@@ -8,21 +8,19 @@
 
 import AlicloudHttpDNS
 
-class AliDNSService: NSObject, HttpDNSDegradationDelegate {
+public class AliDNSService: NSObject, HttpDNSDegradationDelegate {
     
-    static let shared = AliDNSService()
+    public static let shared = AliDNSService()
     
     private override init() {
         super.init()
     }
     
-    var isEnabled: Bool = false
-    
     private var alicloundDNSService: HttpDnsService?
     
     private(set) var preResolveHosts: [String] = []
     
-    func setup(accountId: Int32, secretKey: String, preResolveHosts: [String]) {
+    public func setup(accountId: Int32, secretKey: String, preResolveHosts: [String]) {
         
         alicloundDNSService = HttpDnsService(accountID: accountId, secretKey: secretKey)
         alicloundDNSService?.setAuthCurrentTime(UInt(Date().timeIntervalSince1970))
@@ -35,13 +33,13 @@ class AliDNSService: NSObject, HttpDNSDegradationDelegate {
         self.preResolveHosts = preResolveHosts
     }
 
-    var isHttpsRequestEnabled: Bool = false {
+    public var isHttpsRequestEnabled: Bool = false {
         didSet {
             alicloundDNSService?.setHTTPSRequestEnabled(isHttpsRequestEnabled)
         }
     }
     
-    func resolve(host: String) -> String? {
+    public func resolve(host: String) -> String? {
         if let ip = HttpDnsService.sharedInstance().getIpByHostAsync(host) {
             return ip
         } else {
@@ -49,7 +47,7 @@ class AliDNSService: NSObject, HttpDNSDegradationDelegate {
         }
     }
     
-    func resolveInURLFormat(host: String) -> String? {
+    public func resolveInURLFormat(host: String) -> String? {
         if let ip = HttpDnsService.sharedInstance().getIpByHostAsync(inURLFormat: host) {
             return ip
         } else {
@@ -57,7 +55,7 @@ class AliDNSService: NSObject, HttpDNSDegradationDelegate {
         }
     }
     
-    func shouldDegradeHTTPDNS(_ hostName: String!) -> Bool {
+    public func shouldDegradeHTTPDNS(_ hostName: String!) -> Bool {
         return false
     }
 }
